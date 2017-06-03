@@ -1,4 +1,4 @@
-ComicBetas
+noLunch
 =============
 
 #### Software:
@@ -20,16 +20,16 @@ ComicBetas
 #### Setup:
 ##### Open GitHub.app
 1. Select "File>New Repository" (Command-N)
-2. Give it the Name "ComicBetas"
+2. Give it the Name "nolunch"
 3. Click, "Create Repository," button
 4. Click, "Settings:" the fourth icon on the left in the Grey bar of the main window.
 5. Make sure the, "Primary remote Repository (origin)"," feild says the following:
-    https://github.com/ComicBetas/Initial.git
+    https://github.com/nolunch/nolunch-website.git
 6. Click, "Update Remote," button.
 
 ##### Open Terminal
 1. Go to you're local storage area
-    $ cd /ComicBetas/Initial/
+    $ cd /nolunch
 2. Install SASS
     $ sudo gem install sass
 
@@ -39,9 +39,9 @@ ComicBetas
 2. If you get a conflict you'll see 
 ```html
 <<<<<<< HEAD
-your changes
+Your changes
 =======
-Your Changes
+Other Changes
 >>>>>>> FETCH_HEAD
 ```
     It's up to you to decide which is right
@@ -51,7 +51,7 @@ Your Changes
 1. Edit style.scss
 2. Open Terminal
 ```
-$ cd /ComicBetas/Initial/assets/scss
+$ cd /nolunch/assets/scss
 $ sass style.scss ../css/custom.css --style=compressed
 ```
 The second line is generating custom.css, see <http://sass-lang.com/> for additional addons
@@ -65,4 +65,4 @@ The second line is generating custom.css, see <http://sass-lang.com/> for additi
 
 #### To Push:
 ##### Open GitHub.app
-1. Press "Sync Branch" (Command-S)
+1. Press "Sync" (Command-S)
