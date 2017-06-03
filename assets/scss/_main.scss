@@ -1,0 +1,48 @@
+body{
+  color:$font-color;
+  margin:70px 0 0;
+  padding:0;
+  font:15px $base-font;
+}
+
+a{
+  color:$blue
+}
+
+header {
+  margin-bottom:$gutter;
+  @include box-shadow(0, 4px, 4px, rgba(0, 0, 0, 0.1))
+}
+
+.zoomin{
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes zoomin {
+  from {
+    height:0px;
+    width:0px;
+  }
+  to {
+    height:29px;
+    width:134px;
+  }
+}
+
+/* Standard syntax */
+@keyframes zoomin {
+  from {
+    height:0px;
+    width:0px;
+  }
+  to {
+    height:29px;
+    width:134px;
+  }
+}
+
+.status {
+  color:$status-color;
+  font-size:70%;
+  text-transform:uppercase;
+}
