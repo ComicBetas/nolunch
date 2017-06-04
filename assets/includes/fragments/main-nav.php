@@ -3,5 +3,6 @@
   <li><a href="about.php">about</a></li>
   <li><a href="donate.php">donate</a></li>
   <li><a href="contact.php">contact</a></li>
+  <li><a href="photographs.php">photographs</a></li>
   <li><a href="#">blog</a></li>
 </ul>
