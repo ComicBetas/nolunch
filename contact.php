@@ -58,7 +58,6 @@
             */ ?>
           </div>
           <div>
-            <h2>Submit</h2>
             <form action="contact.php" method="POST">
               <input type="text" name="subject" id="subject" value="subject" placeholder="subject">
               <input type="text" name="field1" id="body" value="" placeholder="Type an Item (e.g. Item1)">
