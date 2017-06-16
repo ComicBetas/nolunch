@@ -63,30 +63,30 @@ include("assets/includes/global-header.php"); // HTML head ?>
       <div class="row">
         <form action="about.php" method="POST" class="col-xs-12">
 
-          <div>
-            <span>Name <span class="form-required">*</span></span>
-            <div style="clear:both;"></div>
-            <div class="form-input-first-name">
-              <input type="text" name="fname" id="fname" value="" placeholder="First Name">
-              <label for="fname">First</label>
+          <div class="form-group">
+            <label for="fname">Name <span class="form-required">*</span></label>
+            <div class="input-group">
+              <input type="text" class="form-control" name="fname" id="fname" value="" placeholder="First Name">
+              <label class="input-group-addon" for="fname">First</label>
             </div>
-            <div class="wsite-form-input-container wsite-form-right wsite-form-input-last-name">
-              <input type="text" name="lname" id="lname" value="" placeholder="Last Name">
-              <label for="lname">Last</label>
+            <div class="input-group">
+              <input type="text" class="form-control" name="lname" id="lname" value="" placeholder="Last Name">
+              <label class="input-group-addon" for="lname">Last</label>
             </div>
           </div>
           
-          <div>
+          <div class="form-group">
             <label for="email">Email <span class="form-required">*</span></label>
-            <input type="text" name="email" id="email" value="" placeholder="Email">
+            <input type="text" class="form-control" name="email" id="email" value="" placeholder="Email">
           </div>
 
-          <div>
+          <div class="form-group">
             <label for="comment">Comment <span class="form-required">*</span></label>
-            <textarea name="comment" id="comment">
+            <textarea class="form-control" name="comment" id="comment">
             </textarea>
           </div>
-          <input type="submit" name="submit" id="submit" value="submit">
+
+          <input class="btn btn-default" type="submit" name="submit" id="submit" value="submit">
         </form><!-- .col-xs-12 -->
       </div><!-- .row -->
     </div><!-- #main_content -->
