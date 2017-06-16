@@ -37,8 +37,6 @@ $base-font:       Helvetica, Geneva, sans-serif;
   -moz-box-shadow:$top $left $blur $color #{$inset};
   box-shadow:$top $left $blur $color #{$inset};
 }
-// Libraries
-@import "_main";
 
 body{
   color:$font-color;
