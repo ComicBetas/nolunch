@@ -1,0 +1,46 @@
+body {
+  color: #3c3c3c;
+  margin: 70px 0 0;
+  padding: 0;
+  font: 15px Helvetica, Geneva, sans-serif; }
+
+a {
+  color: #428bca; }
+
+header {
+  margin-bottom: 16px;
+  -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1) ;
+  -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1) ;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1) ; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes zoomin {
+  from {
+    height: 0;
+    width: 0; }
+  to {
+    height: 29px;
+    width: 134px; } }
+/* Standard syntax */
+@keyframes zoomin {
+  from {
+    height: 0;
+    width: 0; }
+  to {
+    height: 29px;
+    width: 134px; } }
+.status {
+  color: #ca8b42;
+  font-size: 70%;
+  text-transform: uppercase; }
+
+#site_navbar {
+  background-color: #fff;
+  border-bottom: 0 none;
+  box-shadow: 0 0 0; }
+
+#site_navbar .navbar-nav a {
+  color: #830000;
+  margin: 5px 0 0; }
+
+/*# sourceMappingURL=custom.css.map */
