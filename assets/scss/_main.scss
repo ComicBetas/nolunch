@@ -20,8 +20,8 @@ header {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes zoomin {
   from {
-    height:0px;
-    width:0px;
+    height:0;
+    width:0;
   }
   to {
     height:29px;
@@ -32,8 +32,8 @@ header {
 /* Standard syntax */
 @keyframes zoomin {
   from {
-    height:0px;
-    width:0px;
+    height:0;
+    width:0;
   }
   to {
     height:29px;
