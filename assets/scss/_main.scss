@@ -5,7 +5,7 @@ $green:           #42ca8b;
 $grey:            #888;
 $orange:          #ca8bca;
 $purple:          #ca42ca;
-$red:             #ca8b42;
+$red:             #a82e2e;
 $yellow:          #8ccaca;
 $white:           #fff;
 
@@ -45,8 +45,17 @@ body{
   font:15px $base-font;
 }
 
-a{
-  color:$blue
+a,
+.navbar-default .navbar-nav>li>a,
+.alert{
+  color:$red
+}
+
+.alert {
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0
 }
 
 header {
@@ -94,6 +103,5 @@ header {
 }
 
 #site_navbar .navbar-nav a {
-  color:#830000;
   margin:5px 0 0;
 }

@@ -4,8 +4,16 @@ body {
   padding: 0;
   font: 15px Helvetica, Geneva, sans-serif; }
 
-a {
-  color: #428bca; }
+a,
+.navbar-default .navbar-nav > li > a,
+.alert {
+  color: #a82e2e; }
+
+.alert {
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0; }
 
 header {
   margin-bottom: 16px;
@@ -30,7 +38,7 @@ header {
     height: 29px;
     width: 134px; } }
 .status {
-  color: #ca8b42;
+  color: #a82e2e;
   font-size: 70%;
   text-transform: uppercase; }
 
@@ -40,7 +48,6 @@ header {
   box-shadow: 0 0 0; }
 
 #site_navbar .navbar-nav a {
-  color: #830000;
   margin: 5px 0 0; }
 
 /******************** home */
