@@ -10,3 +10,9 @@ Thumbs.db
 
 src/
 *.scssc
+
+*.lesscache
+concrete5/application/files/cache/*
+concrete5/application/config/doctrine/proxies/*
+concrete5/application/config/generated_overrides/*
+concrete5/application/files/*
