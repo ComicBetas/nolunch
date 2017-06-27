@@ -61,30 +61,36 @@ include("assets/includes/global-header.php"); // HTML head ?>
         }
       ?>
       <div class="row">
-        <form action="about.php" method="POST" class="col-xs-12">
+        <form action="about.php" method="POST" class="col-sm-offset-3 col-sm-6 col-xs-12">
 
           <div class="form-group">
             <label for="fname">Name <span class="form-required">*</span></label>
-            <div class="input-group">
-              <input type="text" class="form-control" name="fname" id="fname" value="" placeholder="First Name">
-              <label class="input-group-addon" for="fname">First</label>
-            </div>
-            <div class="input-group">
-              <input type="text" class="form-control" name="lname" id="lname" value="" placeholder="Last Name">
-              <label class="input-group-addon" for="lname">Last</label>
-            </div>
-          </div>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <input type="text" class="form-control" name="fname" id="fname" value="" placeholder="First Name">
+                  <label class="input-group-addon" for="fname">First</label>
+                </div><!-- .input-group -->
+              </div><!-- .col-sm-6 -->
+              <div class="col-sm-6">
+                <div class="input-group">
+                  <input type="text" class="form-control" name="lname" id="lname" value="" placeholder="Last Name">
+                  <label class="input-group-addon" for="lname">Last</label>
+                </div><!-- .input-group -->
+              </div><!-- .col-sm-6 -->
+            </div><!-- .row -->
+          </div><!-- .form-group -->
           
           <div class="form-group">
             <label for="email">Email <span class="form-required">*</span></label>
             <input type="text" class="form-control" name="email" id="email" value="" placeholder="Email">
-          </div>
+          </div><!-- .form-group -->
 
           <div class="form-group">
             <label for="comment">Comment <span class="form-required">*</span></label>
             <textarea class="form-control" name="comment" id="comment">
             </textarea>
-          </div>
+          </div><!-- .form-group -->
 
           <input class="btn btn-default" type="submit" name="submit" id="submit" value="submit">
         </form><!-- .col-xs-12 -->
