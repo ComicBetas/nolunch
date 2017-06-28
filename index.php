@@ -9,7 +9,7 @@ include("assets/includes/global-header.php"); // HTML head ?>
     <div id="main_content">
       <h2>Welcome</h2>
       <p>We are passionate about travel, and educating people about what we have learned in Asia over the last decade.  We are photographers, writers, and philanthropists.</p>
-      <a href="photographs.php" class="btn btn-default">See Photographs</a>
+      <a href="http://tadashifinephoto.com/" class="btn btn-default">See Photographs</a>
       <a href="shop.php" class="btn btn-default">Shop Now</a>
       <hr>
       <h2>Preview <small>No Lunch, No Money, No Rice: The Pursuit of Education in Asia</small></h2>
